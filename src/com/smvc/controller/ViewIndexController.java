@@ -10,7 +10,7 @@ public class ViewIndexController extends AbstractController{
 
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
-
+		System.out.println("ajajh");
 		return new ModelAndView("index");
 	}
 
